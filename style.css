@@ -6,13 +6,13 @@
 
 body {
   font-family: 'Ubuntu', sans-serif;
-  color: #222;
-  overflow-x: hidden;
+  overflow: hidden;
   margin: 0;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
+  color:hsl(9, 37%, 7%);
 }
 
 .blur{
@@ -20,16 +20,16 @@ body {
     no-repeat 
     center 
     center/cover;
-  position: absolte;
-  top: -30px;
-  left: -30px;
-  width: calc(100vw + 60px);
-  height:calc(100vh + 60px);
+  position: absolute;
+  top: -45px;
+  left: -45px;
+  width: calc(100vw + 90px);
+  height:calc(100vh + 90px);
   z-index: -1;
   filter: blur(0px);
 }
 .loading-text{
-  font-size: 60px;
+  font-size: 70px;
   color: #fff;
   position: relative;
 }
