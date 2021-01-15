@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu ');
 
 * {
   box-sizing: border-box;
@@ -6,7 +6,6 @@
 
 body {
   font-family: 'Ubuntu', sans-serif;
-  background: linear-gradient(45deg, rgb(11, 24, 77), #2d51f0 );
   color: #222;
   overflow-x: hidden;
   margin: 0;
@@ -14,4 +13,23 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+}
+
+.blur{
+  background: url('/img/background.jpg') 
+    no-repeat 
+    center 
+    center/cover;
+  position: absolte;
+  top: -30px;
+  left: -30px;
+  width: calc(100vw + 60px);
+  height:calc(100vh + 60px);
+  z-index: -1;
+  filter: blur(0px);
+}
+.loading-text{
+  font-size: 60px;
+  color: #fff;
+  position: relative;
 }
