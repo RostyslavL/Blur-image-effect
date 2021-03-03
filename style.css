@@ -16,7 +16,7 @@ body {
 }
 
 .blur{
-  background: url('/img/background.jpg') 
+  background: url('img/background.jpg') 
     no-repeat 
     center 
     center/cover;
